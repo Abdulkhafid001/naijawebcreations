@@ -11,8 +11,28 @@
 }
 
 /* utility styles */
+.mb-sm {
+    margin-bottom: 0.6em;
+}
+
+.mb-lg {
+    margin-bottom: 1em;
+}
+
+.mt-sm {
+    margin-bottom: 0.6em;
+}
+
 .p-sm {
     padding: 1em;
+}
+
+.py-sm {
+    padding: 1em 0;
+}
+
+.pb-sm {
+    padding-bottom: 2em;
 }
 
 .p-lg {
@@ -43,12 +63,17 @@
     font-weight: 900;
 }
 
+.fw-normal {
+    font-weight: normal;
+}
+
 .fs-1 {
     font-size: 14px;
 }
 
 .fs-2 {
-    font-size: 3rem;
+    font-size: 4rem;
+    /* outline: solid red; */
 }
 
 .league-spartan-font {
@@ -75,6 +100,10 @@
     font-style: normal;
 }
 
+body {
+    position: relative;
+}
+
 /* navbar */
 
 nav {
@@ -85,6 +114,8 @@ nav {
     margin: 10px;
     padding: 1em;
     border-radius: 15px;
+    height: 70px;
+    /* outline: solid red; */
 }
 
 .nav-links a {
@@ -102,15 +133,45 @@ nav {
 
 /* banner */
 section#banner {
-    outline: solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: calc(100vh - 70px);
+    text-align: center;
+    /* outline: solid red; */
+
 }
 
 .call-us-now-btn {
     background-color: var(--black-color);
     color: white;
     text-decoration: none;
-    padding: 1em;
+    padding: 0.7em 2em;
     display: inline-block;
+    border-radius: 10px;
 }
+
+.sample-work-images {
+    position: absolute;
+    z-index: 2;
+
+}
+
+.image-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 @media screen and (min-width: 100px) {}
