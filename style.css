@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black-color: #000;
+}
+
+/* utility styles */
+.p-sm {
+    padding: 1em;
+}
+
+.p-lg {
+    padding: 2em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.fs-1 {
+    font-size: 14px;
+}
+
+.fs-2 {
+    font-size: 3rem;
+}
+
+.league-spartan-font {
+    font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    /*100 - 900*/
+    font-style: normal;
+}
+
+
+.inter-font {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.dm-sans-font {
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e7dcdc;
+    margin: 10px;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--black-color);
+    margin-right: 1em;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.language-select-form #language-form {
+    padding: 0.8em;
+    border-radius: 15px;
+}
+
+/* banner */
+section#banner {
+    outline: solid red;
+}
+
+.call-us-now-btn {
+    background-color: var(--black-color);
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: inline-block;
+}
+
+@media screen and (min-width: 100px) {}
