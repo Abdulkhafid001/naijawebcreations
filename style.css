@@ -152,22 +152,67 @@ section#banner {
     border-radius: 10px;
 }
 
+/* sample work section */
 .sample-work-images {
     position: absolute;
+    left: 10px;
+    right: 0;
     z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-.image-container {
-    width: 280px;
-    height: 300px;
+.sample-work-image {
+    width: 300px;
+    height: 400px;
     outline: solid red;
+}
+
+.sample-work-image img {
+    display: block;
+}
+
+.sample-work-image-1 {
+    background: url('assets/images/agency-work-image-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sample-work-image-2 {
+    background: url('assets/images/agency-work-image-10.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sample-work-images-2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-.image-container img {
-    object-fit: contain;
+.sample-work-image-3 {
+    background: url('assets/images/agency-work-image-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
+.sample-work-image-4 {
+    background: url('assets/images/agency-work-image-6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 
 
 @media screen and (min-width: 100px) {}
