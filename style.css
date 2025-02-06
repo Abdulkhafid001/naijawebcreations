@@ -8,6 +8,8 @@
 
 :root {
     --black-color: #000;
+    --grey-color: #808080;
+    --lighter-grey-color: #c0c0c0;
 }
 
 /* utility styles */
@@ -68,12 +70,19 @@
 }
 
 .fs-1 {
-    font-size: 14px;
+    font-size: 5rem;
 }
 
 .fs-2 {
     font-size: 4rem;
-    /* outline: solid red; */
+}
+
+.fs-3 {
+    font-size: 2rem;
+}
+
+.fs-5 {
+    font-size: 1.5rem;
 }
 
 .league-spartan-font {
@@ -161,6 +170,8 @@ section#banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    display: none;
+
 
 }
 
@@ -196,6 +207,7 @@ section#banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    display: none;
 
 }
 
@@ -213,6 +225,51 @@ section#banner {
     background-size: contain;
 }
 
+/* webadvert */
+.container {
+    margin: auto;
+    width: 90%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container {
+    background: url('assets/images/laptop-image-1.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 500px;
+}
+
+.btn-link {
+    text-decoration: none;
+    padding: 0.7em 2em;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.link1 {
+    background-color: var(--black-color);
+    color: white;
+}
+
+.link2 {
+    background-color: var(--lighter-grey-color);
+    color: var(--black-color);
+}
+
+/* why choose us */
+.why-choose-us-box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 @media screen and (min-width: 100px) {}
