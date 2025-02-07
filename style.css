@@ -41,6 +41,10 @@
     padding: 2em;
 }
 
+.py-lg {
+    padding: 2em 0;
+}
+
 .text-center {
     text-align: center;
 }
@@ -107,6 +111,10 @@
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
+}
+
+.text-white {
+    color: white;
 }
 
 body {
@@ -271,5 +279,47 @@ section#banner {
     align-items: center;
 }
 
+/* call us now */
+
+
+/* footer */
+footer {
+    background-color: #442727;
+    text-transform: capitalize;
+}
+
+.footer-container {
+    width: 99%;
+    margin: auto;
+    /* padding: 0 0.5em; */
+}
+
+.logo-and-social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.footer-link span,
+svg {
+    color: #EAE7D9;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.copyright {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+}
 
 @media screen and (min-width: 100px) {}
