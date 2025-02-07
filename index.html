@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naijawebcreations-Websites and apps for 200k</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
-<body>
+<body id="body">
     <section id="navbar">
         <nav class="dm-sans-font capitalize">
             <div class="logo">
@@ -202,9 +203,72 @@
     </section>
 
     <!-- faq section -->
-    <section id="faq" class="league-spartan-font">
-        <div class="container">
-            <h3 class="text-center uppercase fs-2">FAQ</h3>
+    <section id="faq" class="league-spartan-font mb-lg">
+        <h3 class="text-center uppercase fs-2">FAQ</h3>
+        <div class="accordion-container">
+            <div class="accordion-item">
+                <button class="accordion-button">
+                    How fast will my new website be?
+                    <i class="bi bi-plus"></i>
+                </button>
+                <div class="accordion-answer">
+                    <p>Your website will load fast, even with high-quality images and videos. If it takes more than 2
+                        seconds, visitors will leave before they even see your site. People have short attention spans —
+                        a
+                        slow site loses business.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-button">
+                    Will my website work on mobile and other devices?
+                    <i class="bi bi-plus"></i>
+                </button>
+                <div class="accordion-answer">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-button">
+                    How long will it take to publish my website?
+                    <i class="bi bi-plus"></i>
+                </button>
+                <div class="accordion-answer">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-button">
+                    How much will a new website cost?
+                    <i class="bi bi-plus"></i>
+                </button>
+                <div class="accordion-answer">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-button">
+                    Can you help me with SEO?
+                    <i class="bi bi-plus"></i>
+                </button>
+                <div class="accordion-answer">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-button">
+                    What if I don’t have all the content ready?
+                    <i class="bi bi-plus"></i>
+                </button>
+                <div class="accordion-answer">
+                    <p></p>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -212,7 +276,8 @@
     <section id="clients" class="league-spartan-font text-center">
         <div class="container">
             <h3 class="fs-2 mb-sm">What our clients say</h3>
-            <p class="mb-lg client-text">"What I liked the most is you're very easy to reach. It doesn't take you long to
+            <p class="mb-lg client-text">"What I liked the most is you're very easy to reach. It doesn't take you long
+                to
                 <br> respond, and you always
                 do so in 1-2 hours. I really liked the way you followed the <br> design, and made my website like I
                 wanted it
@@ -221,9 +286,12 @@
                 I've worked with <br> in the past. What I also extremely liked is that you setup a Google Calendar, so
                 my <br>
                 clients could book a meeting with me through my website. I'll definitely come back <br> to you if I have
-                another project."</p>
+                another project."
+            </p>
             <div class="profile">
-                <img src="assets/images/user_profile.png" alt="client-user-image" width="50" height="50">
+                <img src="assets/images/user_profile.png" alt="client-user-image" width="50" height="50"
+                    style="border-radius: 50%;">
+                <span class="fw-900">Tom <span>SM Manager</span></span>
             </div>
         </div>
     </section>
@@ -325,6 +393,7 @@
             <p class="py-lg copyright">nwc<sup>TM</sup> 2024 - All Rights Reserved</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
