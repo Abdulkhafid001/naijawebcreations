@@ -10,6 +10,19 @@
     --black-color: #000;
     --grey-color: #808080;
     --lighter-grey-color: #c0c0c0;
+    --main-gray-color: rgb(245, 245, 245);
+    --framer-font-family: Inter, Inter Placeholder, sans-serif;
+    --framer-font-style: normal;
+    --framer-font-weight: 500;
+    --framer-text-color: #000;
+    --framer-font-size: 16px;
+    --framer-letter-spacing: 0;
+    --framer-text-transform: none;
+    --framer-text-decoration: none;
+    --framer-line-height: 1.2em;
+    --framer-text-alignment: start;
+    --framer-font-open-type-features: normal;
+    --font-variation-settings: normal
 }
 
 /* utility styles */
@@ -50,10 +63,14 @@
 }
 
 .mt-lg {
-    margin-top: 2em;
+    margin-top: 2.5em;
 }
 
 .mt-y-lg {
+    margin: 1.5em 0;
+}
+
+.my-sm {
     margin: 1.5em 0;
 }
 
@@ -107,6 +124,7 @@
 
 .fw-800 {
     font-weight: 800;
+    ;
 }
 
 .fw-900 {
@@ -115,6 +133,7 @@
 
 .fw-normal {
     font-weight: normal;
+    font-style: normal;
 }
 
 .fs-1 {
@@ -129,8 +148,16 @@
     font-size: 2rem;
 }
 
+.fs-4 {
+    font-size: 2.5rem;
+}
+
 .fs-5 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.fs-6 {
+    font-size: 1rem;
 }
 
 .league-spartan-font {
@@ -152,6 +179,7 @@
     font-family: "DM Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    /* add font-weight - italic */
 }
 
 .text-white {
@@ -289,8 +317,9 @@ section#banner {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 550px;
-    height: 500px;
+    width: 510px;
+    height: 530px;
+    border-radius: 10px;
 }
 
 .btn-link {
@@ -304,10 +333,11 @@ section#banner {
 .link1 {
     background-color: var(--black-color);
     color: white;
+    margin-right: 1em;
 }
 
 .link2 {
-    background-color: var(--lighter-grey-color);
+    background-color: var(--main-gray-color);
     color: var(--black-color);
 }
 
@@ -319,8 +349,8 @@ section#banner {
 }
 
 .why-choose-us-box {
-    background-color: #f4f3f2;
-    padding: 1em 1.8em;
+    background-color: var(--main-gray-color);
+    padding: 1em 1.4em;
     border-radius: 10px;
 }
 
@@ -337,10 +367,10 @@ section#banner {
 }
 
 .service-box {
-    background-color: #f4f3f2;
+    background-color: var(--main-gray-color);
     margin-left: 1em;
     padding: 1em;
-    height: 350px;
+    height: 360px;
     border-radius: 10px;
 }
 
@@ -363,8 +393,8 @@ section#banner {
 .accordion-container {
     width: 70%;
     margin: auto;
-    padding: 1em 2em;
-    background-color: #f4f3f2;
+    padding: 1em;
+    background-color: var(--main-gray-color);
     border-radius: 10px;
 }
 
@@ -377,7 +407,7 @@ section#banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     background: none;
     border: none;
     cursor: pointer;
@@ -409,7 +439,12 @@ section#banner {
 /* what our clients say */
 .client-text {
     font-family: "DM Sans", serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.faq-text {
+    font-family: "DM Sans", serif;
+    font-size: 1.4rem;
 }
 
 /* book a call now */
@@ -438,7 +473,7 @@ select {
 
 .contact-form input,
 select {
-    background-color: #f4f3f2;
+    background-color: var(--main-gray-color);
     border: 0.5px solid #EAE7D9;
     border-radius: 10px;
     width: 100%;
@@ -450,7 +485,7 @@ select {
     width: 100%;
     margin: 1em 0.3em;
     padding: 2em;
-    background-color: #f4f3f2;
+    background-color: var(--main-gray-color);
     border: 0.5px solid #EAE7D9;
     border-radius: 10px;
 }
